@@ -1,0 +1,96 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right,purple,pink);
+
+}
+header{
+    background:linear-gradient(to right,purple,pink);
+    color: rgb(3, 3, 3);
+    text-align: center;
+    padding: 2em;
+
+}
+
+.logo h1{
+    margin: 0;
+    font-size: 50px;
+
+
+}
+.tagline p{
+    margin: 0;
+    font-size: 100px;
+
+
+}
+section {
+    margin: 2em;
+
+}
+h2{
+    color:greenyellow;
+    border-bottom: 2px solid rgb(0, 255, 47);
+    padding-bottom: 0.5em;
+}
+.bio img{
+    width: 25%;
+    height: auto;
+    border-radius: 20%;
+    margin-bottom: 1em;
+
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.project{
+    margin-bottom: 5em;
+
+}
+#project{
+    margin: 2em;
+}
+.project{
+    margin-bottom: 2em;
+    border: 1px solid yellow;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+.project img{
+    max-width: 20%;
+    height: auto;
+
+}
+.project-info{
+    padding: 1em;
+}
+.project-info h3{
+    color: yellowgreen;
+    margin-top: 0;
+}
+.project-info p{
+    color: black;
+}
+img{
+    max-width: 100%;
+    height: auto;
+
+}
+#resume a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#resume a:hover{
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    padding: 1em;
+    background-color: yellow;
+    color: darkgreen;
+}
